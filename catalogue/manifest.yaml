@@ -44,7 +44,7 @@ spec:
           requests:
             cpu: "100m"
             memory: "128Mi"
-        redinessProbe:
+        readinessProbe:
           # httpGet:
           #   path: /health
           #   port: 8080
