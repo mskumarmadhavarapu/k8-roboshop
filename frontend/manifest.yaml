@@ -67,6 +67,7 @@ metadata:
   name: frontend
   namespace: roboshop
 spec:
+  type: LoadBalancer
   selector:
     # labels are used as selectors
     project: roboshop
