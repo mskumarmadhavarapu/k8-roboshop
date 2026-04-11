@@ -39,7 +39,8 @@ spec:
     spec:
       containers:
       - name: catalogue
-        image: mskumarmadhavarapu/catalogue:1.0.0
+        image: mskumarmadhavarapu/catalogue:1.4.0
+        imagePullPolicy: Allways # safe to pull everytime, there may be images with same version rebuilt and pushed.
         resources:
           requests:
             cpu: "100m"
